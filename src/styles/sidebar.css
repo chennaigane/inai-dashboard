@@ -1,0 +1,69 @@
+.sidebar {
+  background: linear-gradient(180deg, #182852 70%, #1565c0 120%);
+  color: #fff;
+  width: 330px;
+  min-height: 92vh;
+  padding: 32px 20px 20px 32px;
+  box-sizing: border-box;
+}
+.sidebar-label {
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+.tier-card-selected {
+  border: 3px solid #32c2ff;
+  background: linear-gradient(90deg, #32c2ff33, #fff);
+  box-shadow: 0 4px 14px #0cf2;
+}
+.tier-card-unselected {
+  border: 2px solid #224;
+  box-shadow: 0 1px 5px #0002;
+}
+.tier-card-unselected:hover {
+  border: 2px solid #32c2ff;
+  box-shadow: 0 2px 8px #00f4;
+  cursor: pointer;
+}.sidebar-section {
+  margin-bottom: 40px;
+}
+.sidebar-section:last-child {
+  margin-bottom: 0;
+}
+.sidebar-link {
+  display: block;
+  color: #cce;
+  text-decoration: none;
+  margin: 12px 0;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.sidebar-link:hover {
+  color: #fff;
+}
+.sidebar-link-active {
+  color: #32c2ff;
+  font-weight: 700;
+}
+.sidebar-link-active:hover {
+  color: #61dafb;
+}
+.sidebar-divider {
+  height: 1px;
+  background-color: #224;
+  margin: 24px 0;
+}
+.sidebar-footer {
+  position: absolute;
+  bottom: 20px;
+  left: 32px;
+  right: 32px;
+  font-size: 0.9rem;
+  color: #88a;
+}
+.sidebar-footer a {
+  color: #32c2ff;
+  text-decoration: none;
+}
+.sidebar-footer a:hover {
+  text-decoration: underline;
+}

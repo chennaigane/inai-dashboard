@@ -1,0 +1,23 @@
+.navbar {
+  height: 66px;
+  background: linear-gradient(90deg, #2e3c7a 35%, #32c2ff 100%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  box-shadow: 0 6px 18px #aaa9;
+}
+.navbar-logo {
+  height: 44px;
+  margin-right: 24px;
+}
+.navbar-links a {
+  color: #fff;
+  margin: 0 14px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.navbar-links a:hover {
+  color: #fffa72;
+}
